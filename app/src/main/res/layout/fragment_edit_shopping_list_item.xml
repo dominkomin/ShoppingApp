@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="dk.itu.mmad.shoppingList.EditShoppingListItemFragment"
+             android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/itemNameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:hint="@string/newProduct"/>
+
+    <EditText
+        android:id="@+id/itemAmountEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="1"
+     />
+
+    <Button
+        android:id="@+id/minusEdit"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="@string/minus"/>
+    <Button
+        android:id="@+id/plusEdit"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="@string/plus"/>
+    <Button
+        android:id="@+id/doneEdit"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="@string/add"/>
+
+</LinearLayout>
